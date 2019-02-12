@@ -1,0 +1,44 @@
+.bio__paragraph--centered {
+    color: rgb(255, 115, 0);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bio__paragraph--centered:hover {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    text-shadow: 2px 2px 9px yellow;
+}
+
+.bio__header {
+    font-weight: bold;
+    flex-grow: 2;
+    max-width: 30%;
+}
+
+.bio__headername {
+    font-weight: bold;
+    font-size: 30px;
+    flex-grow: 2;
+    max-width: 40%;
+}
+
+.bio__headername:hover {
+    color: purple;
+    font-style: italic;
+    text-shadow: 2px 2px 9px rgb(68, 255, 68);
+}
+
+.bio__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link:hover {
+    color: purple;
+    font-style: italic;
+    text-shadow: 2px 2px 9px #f44;
+}
